@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "14289acf77e1cee8fefc26aedd7ca2d760a57cba0a5f89e214911b8530ddd018"
+            "sha256": "9fc425656194732cc2230bffd5a1a54b9360207c3d27ae3343ca5ae51ce4e807"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -111,12 +111,6 @@
             ],
             "version": "==4.5.0"
         },
-        "ordereddict": {
-            "hashes": [
-                "sha256:1c35b4ac206cef2d24816c89f89cf289dd3d38cf7c449bb3fab7bf6d43f01b1f"
-            ],
-            "version": "==1.1"
-        },
         "python-dateutil": {
             "hashes": [
                 "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
@@ -158,14 +152,6 @@
                 "sha256:87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"
             ],
             "version": "==1.25.8"
-        },
-        "woocommerce": {
-            "hashes": [
-                "sha256:68661ec4d6ebf4fa57450b1d363ec7a282775c60ac62dd9bbe4270858c9a8cc2",
-                "sha256:9980f3cec3051830062bf1e5e101f759dd3a6db7b00e7f605355ce8f8f6e16ca"
-            ],
-            "index": "pypi",
-            "version": "==2.1.1"
         },
         "zeep": {
             "hashes": [

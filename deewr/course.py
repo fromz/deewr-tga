@@ -19,7 +19,7 @@ class CourseFetcher:
             'ParentCode': courseDetails.ParentCode,
             'ParentTitle': courseDetails.ParentTitle,
             'ComponentType': courseDetails.ComponentType,
-            'IsAComponentOfQualifications': [],
+            'ProvidedBy': [],
             'Documents': [],
         }
 
@@ -27,7 +27,7 @@ class CourseFetcher:
             qualCodes = self.quals_by_unit[courseDetails.Code]
             for qualCode in qualCodes:
                 if qualCode in self.quals:
-                    courseData['IsAComponentOfQualifications'].append({
+                    courseData['ProvidedBy'].append({
                         'Code': self.quals[qualCode]['Code'],
                         'Status': self.quals[qualCode]['Status'],
                         'Title': self.quals[qualCode]['Title']
